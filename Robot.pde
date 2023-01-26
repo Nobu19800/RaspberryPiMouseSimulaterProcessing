@@ -115,7 +115,7 @@ class Robot
       rotateX(PI/2);
       float angle0 = wheelJoints[1].getHingeAngle();
       // 車輪の回転を表現
-      rotateZ(angle0);
+      rotateZ(-angle0);
       pushMatrix();
       scale(0.1);
       fill(#c0c0c0);

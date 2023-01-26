@@ -40,6 +40,9 @@ void setObjectPosition(RigidBody rigidBody)
   catch(IndexOutOfBoundsException ex)
   {
   }
+  catch(NullPointerException ex)
+  {
+  }
 }
 
 
